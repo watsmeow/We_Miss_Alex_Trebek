@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: darkgray;
+    height: 100vh;
+}
+
+body * {
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 600px;
+    min-height: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#game-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+
+}
+
+#category-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#clue-board {
+    flex-direction: column;
+}
+
+.clue-row {
+    display: flex;
+}
+
+.clue-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid black;
+    background-color: #010A78;
+    color: #D69F4B;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 5px;
+    height: 100px;
+    flex: 1;
+}
+
+.clicked-box {
+    font-size: 1rem;
+}
+
+button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .5);
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.category-box {
+    font-size: .8rem;
+    line-height: 10px;
+    color: white;
+}
